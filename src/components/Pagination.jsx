@@ -66,9 +66,7 @@ const Pagination = ({ itemsPerPage }) => {
         <button onClick={handlePrevPage} disabled={currentPage === 1}>
           Previous
         </button>
-        <span>
-          {currentPage} / {totalPages}
-        </span>
+        <span>{currentPage}</span>
         <button onClick={handleNextPage} disabled={currentPage === totalPages}>
           Next
         </button>
