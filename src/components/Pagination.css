@@ -1,0 +1,38 @@
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th {
+  background-color: #458d45;
+  color: white;
+  border: none; /* Remove border lines */
+  padding: 8px;
+  text-align: left;
+}
+
+.employee-table td {
+  border: none; /* Remove border lines */
+  border-bottom: 1px solid #ddd; /* Add horizontal line */
+  padding: 8px;
+  text-align: left;
+}
+
+.pagination {
+  margin-top: 10px;
+}
+
+.pagination button {
+  cursor: pointer;
+  background-color: #458d45;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
