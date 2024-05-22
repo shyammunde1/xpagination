@@ -16,7 +16,7 @@ const Pagination = ({ itemsPerPage }) => {
         setData(response.data);
         setLoading(false);
       } catch (error) {
-        alert("Error fetching data:", error);
+        alert("Failed to fetch data");
         setLoading(false);
       }
     };
